@@ -30,7 +30,7 @@ print("\n \033[91m  [99]  \033[93m Exit ")
 
 print("\n\n")
 def execute():
-    num= input("\t \033[92m@\033[93minfinitytools:  ")
+    num= input("  \033[92m@\033[93minfinitytools:  ")
     print("\n \033[94m")
     workdone(num)
 
@@ -39,7 +39,7 @@ def workdone(num):
         task = os.system(" apt-get update")
     
     if num == "99" :
-        print("\t\033[91m Exiting the tool. Thanks for using \033[94m @ The unqualified dev \n ")
+        print("  \033[91m Exiting the tool. Thanks for using \033[94m @ The unqualified dev \n ")
         t.sleep(2)
         exit()
 
