@@ -24,7 +24,7 @@ print("  \033[91m [04]  \033[93m Install Wget")
 print("  \033[91m [05]  \033[93m Install Crunch")
 print("  \033[91m [06]  \033[93m Install Aircrack")
 print(" \033[91m  [07]  \033[93m Handshake 2 Password Cracker")
-
+print(" \033[91m  [08]  \033[93m Install Hydra")
 print("\n \033[91m  [99]  \033[93m Exit ")
 
 
@@ -58,6 +58,8 @@ def workdone(num):
     if num == "6" or num == "06":
         task = os.system(" apt-get install aircrack-ng")
     
+    if num == "8" or num == "08":
+        task = os.system(" apt-get install hydra")
     else:
         print("No such tools found ! Try again <3 ")
     
