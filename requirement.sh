@@ -4,8 +4,6 @@ echo ""
 
 apt-get install python
 echo ""
-apt-get install python-pip
-echo ""
 apt-get update && apt-get upgrade
 echo ""
 pip install pyfiglet
