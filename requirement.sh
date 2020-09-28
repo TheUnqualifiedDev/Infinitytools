@@ -9,6 +9,7 @@ echo ""
 apt-get update && apt-get upgrade
 echo ""
 pip install pyfiglet
+chmod +x infinity.py
 
 echo "Thanks for installing ! Have Fun"
 
