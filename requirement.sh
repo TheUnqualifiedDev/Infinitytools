@@ -2,9 +2,9 @@
 echo "Installing Required Files for InfinityTools!!!"
 echo ""
 
-apt-get install python3
+apt-get install python
 echo ""
-apt-get install python3-pip
+apt-get install python-pip
 echo ""
 apt-get update && apt-get upgrade
 echo ""
