@@ -58,6 +58,10 @@ def workdone(num):
 
     if num == "6" or num == "06":
         task = os.system(" apt-get install aircrack-ng")
+    if num == "98" or num == "98":
+        task = os.system(" rm -r ../Infinitytools")
+        task = os.system(" git clone https://github.com/TheUnqualifiedDev/Infinitytools.git")
+
 
     else:
         print("No such tools found ! Try again <3 ")
