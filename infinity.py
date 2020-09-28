@@ -25,8 +25,7 @@ print("  \033[91m [05]  \033[93m Install Crunch")
 print("  \033[91m [06]  \033[93m Install Aircrack")
 print(" \033[91m  [07]  \033[93m Handshake 2 Password Cracker")
 
-print("\n \033[91m  [98]  \033[93m Update InfinityTools ")
-print(" \033[91m  [99]  \033[93m Exit ")
+print("\n \033[91m  [99]  \033[93m Exit ")
 
 
 print("\n\n")
@@ -58,11 +57,7 @@ def workdone(num):
 
     if num == "6" or num == "06":
         task = os.system(" apt-get install aircrack-ng")
-    if num == "98" or num == "98":
-        task = os.system(" rm -r ../Infinitytools")
-        task = os.system(" git clone https://github.com/TheUnqualifiedDev/Infinitytools.git")
-
-
+    
     else:
         print("No such tools found ! Try again <3 ")
     
